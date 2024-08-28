@@ -1,0 +1,57 @@
+.game-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background */
+  }
+  
+  .game-card {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.3s ease, height 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game-card:hover {
+    width: 350px;
+    height: 400px;
+  }
+  
+  .card-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-image {
+    .game-image {
+      width: 100%;
+      height: auto;
+      position: relative;
+      opacity: 0.8; /* Adjust as needed */
+    }
+    
+  }
+  
+  .text-content {
+    z-index: 1;
+  }
+  .header{
+    color: transparent;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(254, 251, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 43px;
+margin-bottom: 15px;
+  }
